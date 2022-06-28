@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Contact Details</h2>
+    <table cellspacing="10"> <!-- this is the table element -->
+        <thead>  <!-- this is the header element (bolds) -->
+            <tr> <!-- this is the row element -->
+                <th>Type</th> <!-- this is the data cell element -->
+                <th>Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Address</td>
+                <td>1234 Fictional Address</td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>1234567890</td>
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td>myFakeEmail@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Contact Me</h2>
+    <form action="mailto:erinkwon01@gmail.com" method="post" enctype="text/plain"> <!-- This is a form !!-->
+        <label>Your Name: </label> <!-- Labelling the input -->
+        <input type="text" name="yourName"> <!-- text box for input -->
+        <br>
+        <br>
+        <label>Favorite Color: </label>
+        <input type="color" name="favColorHex">
+        <br>
+        <br>
+        <label>Your Email: </label>
+        <input type="email" name="yourEmail">
+        <br>
+        <br>
+        <labeL>Your Message: </labeL>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="submit" name=""> <!-- submit button -->
+        <!-- For more types of input (like checkbox, color picker, or password),
+            Search it up. -->
+    </form>
+</body>
+</html>
